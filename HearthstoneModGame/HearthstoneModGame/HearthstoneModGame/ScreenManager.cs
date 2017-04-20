@@ -14,12 +14,12 @@ namespace HearthstoneModGame
     /// <summary>
     /// This is the main type for your game
     /// </summary>
-    public class Game1 : Microsoft.Xna.Framework.Game
+    public class ScreenManager : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        public Game1()
+        public ScreenManager()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -34,6 +34,8 @@ namespace HearthstoneModGame
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            graphics.IsFullScreen = true;
+            graphics.ApplyChanges();
 
             base.Initialize();
         }
@@ -84,6 +86,7 @@ namespace HearthstoneModGame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            
 
             base.Draw(gameTime);
         }
