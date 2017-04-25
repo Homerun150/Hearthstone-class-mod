@@ -19,6 +19,7 @@ namespace HearthstoneModGame
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+
         public ScreenManager()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -86,8 +87,11 @@ namespace HearthstoneModGame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-            
+            spriteBatch.Begin();
 
+            spriteBatch.Draw();
+
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }
