@@ -36,7 +36,7 @@ namespace HearthstoneModGame
         public virtual void LoadContent(ContentManager Content)
         {
             currentScreen = "MainMenu";
-            buttonClickSound = Content.Load<SoundEffect>("ButtonClick");
+            //buttonClickSound = Content.Load<SoundEffect>("ButtonClick");
             Debug.WriteLine("Test");
         }
 

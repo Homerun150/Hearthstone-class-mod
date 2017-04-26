@@ -30,8 +30,8 @@
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HearthStone-Tavern-Brawl sh.jpg">
-      <Name>HearthStone-Tavern-Brawl sh</Name>
+    <Compile Include="HearthStone-Tavern-Brawl-sh.jpg">
+      <Name>HearthStone-Tavern-Brawl-sh</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

@@ -19,6 +19,9 @@ namespace HearthstoneModGame
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        MainMenu menu;
+        Texture2D menuBG;
+
 
         public ScreenManager()
         {
@@ -36,6 +39,8 @@ namespace HearthstoneModGame
         {
             // TODO: Add your initialization logic here
             graphics.IsFullScreen = true;
+            graphics.PreferredBackBufferHeight = 720;
+            graphics.PreferredBackBufferWidth = 1080;
             graphics.ApplyChanges();
 
             base.Initialize();
@@ -51,6 +56,8 @@ namespace HearthstoneModGame
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            menuBG = Content.Load<Texture2D>("HearthStone-Tavern-Brawl-sh");
+            menu = new MainMenu(menuBG);
         }
 
         /// <summary>
@@ -87,11 +94,8 @@ namespace HearthstoneModGame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-            spriteBatch.Begin();
-
-            spriteBatch.Draw();
-
-            spriteBatch.End();
+            menu.Draw(spriteBatch);
+            
             base.Draw(gameTime);
         }
     }
