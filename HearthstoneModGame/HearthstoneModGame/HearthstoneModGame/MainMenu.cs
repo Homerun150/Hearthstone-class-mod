@@ -14,6 +14,9 @@ namespace HearthstoneModGame
 {
     class MainMenu
     {
+        private Buttoncollision playAIButton;
+        private Buttoncollision viewCardDetail;
+        private Texture2D mainMenuBackgorund;
 
-    }
+
 }

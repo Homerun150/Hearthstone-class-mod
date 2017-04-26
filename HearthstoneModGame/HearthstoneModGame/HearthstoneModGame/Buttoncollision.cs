@@ -20,11 +20,21 @@ namespace HearthstoneModGame
         private Vector2 buttonPosition;
         private Vector2 mousePosition;
 
-        public ButtonCollision(ContentManager Content, Vector2 ButtonPosition, string ButtonImage)
+        public Buttoncollision(ContentManager Content, Vector2 ButtonPosition, string ButtonImage)
         {
             buttonPosition = ButtonPosition;
             buttonImage = Content.Load<Texture2D>(ButtonImage);
-            buttonCollision = new Rectangle((int)ButtonPosition.X, (int)ButtonPosition.Y, (int) Button
+            buttonCollision = new Rectangle((int)(ButtonPosition.X - buttonImage.Width / 2), (int)(ButtonPosition.Y - buttonImage.Height / 2), buttonImage.Width, buttonImage.Height);
+        }
+
+        public bool CheckMouseCollision(MouseState mousePosition)
+        {
+            return buttonCollision.Contains(mousePosition.X, mousePosition.Y);
+        }
+
+        public void Draw(SpriteBatch spriteBatch, Color color)
+        {
+            spriteBatch.Draw(buttonImage, buttonCollision, color);
         }
     }
 }
