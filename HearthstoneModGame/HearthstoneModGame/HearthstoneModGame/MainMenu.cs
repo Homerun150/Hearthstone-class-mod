@@ -16,12 +16,13 @@ namespace HearthstoneModGame
     {
         private Buttoncollision playAIButton;
         private Buttoncollision viewCardDetail;
+        private Buttoncollision exitButton;
         private Texture2D mainMenuBackgorund;
 
         public MainMenu(Texture2D mainmenuPNG)
         {
             mainMenuBackgorund = mainmenuPNG;
-
+            playAIButton = 
         }
 
         public void Update()
