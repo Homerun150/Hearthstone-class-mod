@@ -22,12 +22,14 @@ namespace HearthstoneModGame
         public MainMenu(Texture2D mainmenuPNG)
         {
             mainMenuBackgorund = mainmenuPNG;
-            playAIButton = 
+            playAIButton = ;
+            viewCardDetail = ;
+            exitButton = ;
         }
 
         public void Update()
         {
-
+            if ()
         }
          public void Draw(SpriteBatch spritebatch)
         {
