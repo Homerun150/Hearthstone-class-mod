@@ -29,7 +29,16 @@ namespace HearthstoneModGame
 
         public void Update()
         {
-            if ()
+            playAIButton.CheckMouseCollision();
+            viewCardDetail.CheckMouseCollision();
+            exitButton.CheckMouseCollision();
+
+            if (playAIButton.complete == true)
+            {
+
+            }
+            if (play)
+                
         }
          public void Draw(SpriteBatch spritebatch)
         {
@@ -38,6 +47,16 @@ namespace HearthstoneModGame
             spritebatch.Draw(mainMenuBackgorund, new Rectangle(0, 0, 1080, 720), Color.White);
 
             spritebatch.End();
+        }
+
+        public string returnCurrentScreen()
+        {
+            return 
+        }
+
+        public string returnPreviousScreen()
+        {
+            return
         }
     }
 }

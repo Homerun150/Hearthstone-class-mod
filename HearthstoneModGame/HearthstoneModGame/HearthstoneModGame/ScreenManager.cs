@@ -22,6 +22,10 @@ namespace HearthstoneModGame
         MainMenu menu;
         Texture2D menuBG;
 
+        public string currentScreen = "MainMenu";
+        public string previousScreen;
+        
+
 
         public ScreenManager()
         {
