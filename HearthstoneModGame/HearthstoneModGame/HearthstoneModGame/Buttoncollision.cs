@@ -22,10 +22,10 @@ namespace HearthstoneModGame
         MouseState mouseState;
         MouseState mousePosition;
 
-        public Buttoncollision(ContentManager Content, Vector2 ButtonPosition, string ButtonImage)
+        public Buttoncollision(Texture2D ButtonImage, Vector2 ButtonPosition)
         {
             buttonPosition = ButtonPosition;
-            buttonImage = Content.Load<Texture2D>(ButtonImage);
+            buttonImage = ButtonImage;
             buttonCollision = new Rectangle((int)(ButtonPosition.X - buttonImage.Width / 2), (int)(ButtonPosition.Y - buttonImage.Height / 2), buttonImage.Width, buttonImage.Height);
             complete = false;
         }

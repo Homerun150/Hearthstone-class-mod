@@ -21,6 +21,8 @@ namespace HearthstoneModGame
 
         MainMenu menu;
         Texture2D menuBG;
+        Texture2D menuPAB;
+        Texture2D menuRCB;
 
         public string currentScreen = "MainMenu";
         public string previousScreen;
@@ -45,6 +47,7 @@ namespace HearthstoneModGame
             graphics.IsFullScreen = true;
             graphics.PreferredBackBufferHeight = 720;
             graphics.PreferredBackBufferWidth = 1080;
+            this.IsMouseVisible = true;
             graphics.ApplyChanges();
 
             base.Initialize();
@@ -61,7 +64,8 @@ namespace HearthstoneModGame
 
             // TODO: use this.Content to load your game content here
             menuBG = Content.Load<Texture2D>("background fix");
-            menu = new MainMenu(menuBG);
+
+            menu = new MainMenu(menuBG, menuPAB, menuRCB);
         }
 
         /// <summary>
@@ -105,7 +109,7 @@ namespace HearthstoneModGame
             
             if (currentScreen == "playAI")
             {
-
+                
             }
             
             base.Draw(gameTime);

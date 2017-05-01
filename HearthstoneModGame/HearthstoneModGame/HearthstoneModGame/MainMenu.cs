@@ -22,6 +22,9 @@ namespace HearthstoneModGame
         private Texture2D reviewButton;
         private Texture2D exitbutton;
 
+        private Vector2 practiceLocation1 = new Vector2 (200, 200);
+        private Vector2 practicelocation2 = new Vector2(100, 100);
+
 
         public MainMenu(Texture2D mainmenuPNG, Texture2D playbutton, Texture2D viewCardButton)
         {
@@ -29,8 +32,8 @@ namespace HearthstoneModGame
             playButton = playbutton;
             reviewButton = viewCardButton;
 
-            playAIButton = ;
-            viewCardDetail = ;
+            playAIButton = new Buttoncollision(playButton, practiceLocation1);
+            //viewCardDetail = ;
             //exitButton = ;
         }
 
