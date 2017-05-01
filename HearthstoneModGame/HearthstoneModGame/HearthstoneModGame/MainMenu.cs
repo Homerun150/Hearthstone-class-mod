@@ -18,13 +18,20 @@ namespace HearthstoneModGame
         private Buttoncollision viewCardDetail;
         private Buttoncollision exitButton;
         private Texture2D mainMenuBackgorund;
+        private Texture2D playButton;
+        private Texture2D reviewButton;
+        private Texture2D exitbutton;
 
-        public MainMenu(Texture2D mainmenuPNG)
+
+        public MainMenu(Texture2D mainmenuPNG, Texture2D playbutton, Texture2D viewCardButton)
         {
             mainMenuBackgorund = mainmenuPNG;
+            playButton = playbutton;
+            reviewButton = viewCardButton;
+
             playAIButton = ;
             viewCardDetail = ;
-            exitButton = ;
+            //exitButton = ;
         }
 
         public void Update()
@@ -37,7 +44,7 @@ namespace HearthstoneModGame
             {
 
             }
-            if (play)
+            //if (play)
                 
         }
          public void Draw(SpriteBatch spritebatch)
@@ -49,14 +56,14 @@ namespace HearthstoneModGame
             spritebatch.End();
         }
 
-        public string returnCurrentScreen()
-        {
-            return 
-        }
+        //public string returnCurrentScreen()
+       // {
+            //return 
+        //}
 
-        public string returnPreviousScreen()
-        {
-            return
-        }
+        //public string returnPreviousScreen()
+        //{
+            //return
+        //}
     }
 }

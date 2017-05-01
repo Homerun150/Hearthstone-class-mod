@@ -60,7 +60,7 @@ namespace HearthstoneModGame
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
-            menuBG = Content.Load<Texture2D>("HearthStone-Tavern-Brawl-sh");
+            menuBG = Content.Load<Texture2D>("background fix");
             menu = new MainMenu(menuBG);
         }
 
@@ -98,7 +98,15 @@ namespace HearthstoneModGame
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-            menu.Draw(spriteBatch);
+            if (currentScreen == "MainMenu")
+            {
+                menu.Draw(spriteBatch);
+            }
+            
+            if (currentScreen == "playAI")
+            {
+
+            }
             
             base.Draw(gameTime);
         }
