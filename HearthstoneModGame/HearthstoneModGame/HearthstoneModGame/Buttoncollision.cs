@@ -38,9 +38,13 @@ namespace HearthstoneModGame
             else { complete = false; }
         }
 
-        public void Draw(SpriteBatch spriteBatch, Color color)
+        public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(buttonImage, buttonCollision, color);
+            spriteBatch.Begin();
+
+            spriteBatch.Draw(buttonImage, buttonCollision, Color.White);
+
+            spriteBatch.End();
         }
     }
 }

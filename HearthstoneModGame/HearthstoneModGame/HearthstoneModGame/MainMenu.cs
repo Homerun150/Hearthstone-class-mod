@@ -22,7 +22,7 @@ namespace HearthstoneModGame
         private Texture2D reviewButton;
         private Texture2D exitbutton;
 
-        private Vector2 practiceLocation1 = new Vector2 (200, 200);
+        private Vector2 practiceLocation1 = new Vector2(200, 200);
         private Vector2 practicelocation2 = new Vector2(100, 100);
 
 
@@ -33,7 +33,7 @@ namespace HearthstoneModGame
             reviewButton = viewCardButton;
 
             playAIButton = new Buttoncollision(playButton, practiceLocation1);
-            //viewCardDetail = ;
+            viewCardDetail = new Buttoncollision(reviewButton, practicelocation2);
             //exitButton = ;
         }
 
@@ -48,15 +48,18 @@ namespace HearthstoneModGame
 
             }
             //if (play)
-                
+
         }
-         public void Draw(SpriteBatch spritebatch)
-        {
+        public void Draw(SpriteBatch spritebatch)
+        { 
             spritebatch.Begin();
 
             spritebatch.Draw(mainMenuBackgorund, new Rectangle(0, 0, 1080, 720), Color.White);
 
             spritebatch.End();
+
+            playAIButton.Draw(spritebatch);
+            viewCardDetail.Draw(spritebatch);
         }
 
         //public string returnCurrentScreen()

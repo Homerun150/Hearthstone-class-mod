@@ -64,6 +64,8 @@ namespace HearthstoneModGame
 
             // TODO: use this.Content to load your game content here
             menuBG = Content.Load<Texture2D>("background fix");
+            menuPAB = Content.Load<Texture2D>("play-AI-fix");
+            menuRCB = Content.Load<Texture2D>("review-card-fix");
 
             menu = new MainMenu(menuBG, menuPAB, menuRCB);
         }
