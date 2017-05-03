@@ -26,7 +26,8 @@ namespace HearthstoneModGame
 
         public string currentScreen = "MainMenu";
         public string previousScreen;
-        
+
+        public SoundEffect buttonClicked;
 
 
         public ScreenManager()
