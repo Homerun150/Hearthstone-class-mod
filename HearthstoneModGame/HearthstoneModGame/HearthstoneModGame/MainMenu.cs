@@ -20,21 +20,27 @@ namespace HearthstoneModGame
         private Texture2D mainMenuBackgorund;
         private Texture2D playButton;
         private Texture2D reviewButton;
-        private Texture2D exitbutton;
+        private Texture2D Ebutton;
 
         private Vector2 practiceLocation1 = new Vector2(500, 500);
         private Vector2 practicelocation2 = new Vector2(100, 100);
 
+        public bool rButtonIsClicked = false;
+        public bool pAButtonIsClicked = false;
+        public bool eButtonIsClicked = false;
 
-        public MainMenu(Texture2D mainmenuPNG, Texture2D playbutton, Texture2D viewCardButton)
+
+
+        public MainMenu(Texture2D mainmenuPNG, Texture2D playbutton, Texture2D viewCardButton, Texture2D eButton)
         {
             mainMenuBackgorund = mainmenuPNG;
             playButton = playbutton;
             reviewButton = viewCardButton;
+            Ebutton = eButton;
 
             playAIButton = new Buttoncollision(playButton, practiceLocation1);
             viewCardDetail = new Buttoncollision(reviewButton, practicelocation2);
-            //exitButton = ;
+            exitButton = new Buttoncollision(Ebutton, new Vector2 (400, 400));
         }
 
         public void Update()
@@ -45,9 +51,22 @@ namespace HearthstoneModGame
 
             if (playAIButton.complete == true)
             {
-
+                pAButtonIsClicked = true;
             }
-            //if (play)
+            if (viewCardDetail.complete == true)
+            {
+                rButtonIsClicked = true;
+            }
+            if (exitButton.complete == true)
+            {
+                eButtonIsClicked = true;
+            }
+            else
+            {
+                pAButtonIsClicked = false;
+                rButtonIsClicked = false;
+                eButtonIsClicked = false;
+            }
 
         }
         public void Draw(SpriteBatch spritebatch)
@@ -60,16 +79,7 @@ namespace HearthstoneModGame
 
             playAIButton.Draw(spritebatch);
             viewCardDetail.Draw(spritebatch);
+            exitButton.Draw(spritebatch);
         }
-
-        //public string returnCurrentScreen()
-       // {
-            //return 
-        //}
-
-        //public string returnPreviousScreen()
-        //{
-            //return
-        //}
     }
 }

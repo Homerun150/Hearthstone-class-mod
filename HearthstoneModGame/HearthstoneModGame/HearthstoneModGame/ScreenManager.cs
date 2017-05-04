@@ -23,9 +23,10 @@ namespace HearthstoneModGame
         Texture2D menuBG;
         Texture2D menuPAB;
         Texture2D menuRCB;
+        Texture2D menuEB;
 
         public string currentScreen = "MainMenu";
-        public string previousScreen;
+        public string previousScreen = "";
 
         public SoundEffect buttonClicked;
 
@@ -67,8 +68,9 @@ namespace HearthstoneModGame
             menuBG = Content.Load<Texture2D>("background fix");
             menuPAB = Content.Load<Texture2D>("play-AI-fix");
             menuRCB = Content.Load<Texture2D>("review-card-fix");
+            menuEB = Content.Load<Texture2D>("Exit");
 
-            menu = new MainMenu(menuBG, menuPAB, menuRCB);
+            menu = new MainMenu(menuBG, menuPAB, menuRCB, menuEB);
         }
 
         /// <summary>
@@ -92,7 +94,29 @@ namespace HearthstoneModGame
                 this.Exit();
 
             // TODO: Add your update logic here
+            if (currentScreen == "MainMenu")
+            {
+                menu.Update();
+                if (menu.pAButtonIsClicked == true)
+                {
+                    previousScreen = currentScreen;
+                    currentScreen = "PlayAIMenu";
+                }
+                else if (menu.rButtonIsClicked == true)
+                {
+                    previousScreen = currentScreen;
+                    currentScreen = "PlayAIMenu";
+                    this.Exit();
+                }
+                else if (menu.eButtonIsClicked)
+                {
+                    this.Exit();
+                }
+                else
+                {
 
+                }
+            }
             base.Update(gameTime);
         }
 
