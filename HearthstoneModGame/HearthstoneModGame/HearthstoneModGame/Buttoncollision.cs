@@ -9,6 +9,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using System.Diagnostics;
 
 
 namespace HearthstoneModGame
@@ -33,8 +34,11 @@ namespace HearthstoneModGame
         public void CheckMouseCollision()
         {
             mouseState = Mouse.GetState();
-            if (buttonCollision.Contains(mousePosition.X, mousePosition.Y) && mouseState.LeftButton == ButtonState.Pressed)
+            Debug.WriteLine(mouseState.X + " " + mouseState.Y + " BC " + buttonCollision.X + " " + buttonCollision.Y + " " + buttonCollision.Width + " " + buttonCollision.Height + " " +mouseState.LeftButton+ " " + buttonCollision.Contains(mousePosition.X, mousePosition.Y));
+            if (buttonCollision.Contains(mouseState.X, mouseState.Y) && mouseState.LeftButton == ButtonState.Pressed)
+            {
                 complete = true;
+            }
             else { complete = false; }
         }
 

@@ -46,7 +46,7 @@ namespace HearthstoneModGame
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            graphics.IsFullScreen = true;
+            graphics.IsFullScreen = false;
             graphics.PreferredBackBufferHeight = 720;
             graphics.PreferredBackBufferWidth = 1080;
             this.IsMouseVisible = true;
@@ -101,6 +101,7 @@ namespace HearthstoneModGame
                 {
                     previousScreen = currentScreen;
                     currentScreen = "PlayAIMenu";
+                    this.Exit();
                 }
                 else if (menu.rButtonIsClicked == true)
                 {
