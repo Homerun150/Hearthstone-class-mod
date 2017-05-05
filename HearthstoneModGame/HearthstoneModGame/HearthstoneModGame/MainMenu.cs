@@ -14,6 +14,7 @@ namespace HearthstoneModGame
 {
     class MainMenu
     {
+        //Main menu setup
         private Buttoncollision playAIButton;
         private Buttoncollision viewCardDetail;
         private Buttoncollision exitButton;
@@ -28,6 +29,8 @@ namespace HearthstoneModGame
         public bool rButtonIsClicked = false;
         public bool pAButtonIsClicked = false;
         public bool eButtonIsClicked = false;
+
+        //review card setup
 
 
 

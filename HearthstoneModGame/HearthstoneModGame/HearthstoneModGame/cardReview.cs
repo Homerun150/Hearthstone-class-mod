@@ -65,12 +65,37 @@ namespace HearthstoneModGame
 
         //Minor cards
 
-        //fall
-        Texture2D Shoulder_Pad;
-        Texture2D FootBall;
-        Texture2D Helment;
+        //Cam A. fall
+        Texture2D Shoulder_Pad_Card;
+        Texture2D FootBall_Card;
+        Texture2D Helment_Card;
 
-        //winter
+        //Cam A. winter
+        Texture2D Bowling_Ball_Card;
+        Texture2D Pin_Card;
+        Texture2D Bag_Card;
+
+        //Cam A. spring
+        Texture2D Bat_Card;
+        Texture2D Glove_Card;
+        Texture2D Baseball_Card;
+
+        //Cam A. Gamer form
+        Texture2D Spartain_150_Card;
+        Texture2D HearthStone_Challenger_Card;
+
+        //Spell Minions
+        Texture2D Java_Book_Card;
+        Texture2D C_Plus_Plus_Book_Card;
+        Texture2D C_Sharp_Book_Card;
+        Texture2D Python_Book_Card;
+        Texture2D Chicken_Book_Card;
+        Texture2D Error_Log_Card;
+
+        //Special Card
+        Texture2D Arron_Card;
+
+        //Card list check
 
         public void Draw(SpriteBatch spritebatch)
         {

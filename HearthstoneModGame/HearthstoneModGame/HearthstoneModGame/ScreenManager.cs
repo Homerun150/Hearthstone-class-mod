@@ -19,6 +19,7 @@ namespace HearthstoneModGame
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        //Menu setup
         MainMenu menu;
         Texture2D menuBG;
         Texture2D menuPAB;
@@ -27,6 +28,8 @@ namespace HearthstoneModGame
 
         public string currentScreen = "MainMenu";
         public string previousScreen = "";
+
+        
 
         public SoundEffect buttonClicked;
 
