@@ -95,19 +95,14 @@ namespace HearthstoneModGame
         //Special Card
         Texture2D Arron_Card;
 
-        //Card list check
-        //cards 1-26 are main card minions
-        Texture2D Card1;
-        Texture2D Card2;
-        Texture2D Card3;
-        Texture2D Card4;
-        Texture2D Card5;
-        Texture2D Card1;
-        Texture2D Card1;
-        Texture2D Card1;
+        
         public void Draw(SpriteBatch spritebatch)
         {
-            
+            spritebatch.Begin();
+
+
+
+            spritebatch.End();
         }
     }
 }

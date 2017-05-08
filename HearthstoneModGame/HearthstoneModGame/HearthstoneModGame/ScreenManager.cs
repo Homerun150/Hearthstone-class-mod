@@ -29,7 +29,78 @@ namespace HearthstoneModGame
         public string currentScreen = "MainMenu";
         public string previousScreen = "";
 
-        
+        //Card review setup
+        //Card list check
+        //cards 1-26 are main card minions
+        Texture2D Card1;
+        Texture2D Card2;
+        Texture2D Card3;
+        Texture2D Card4;
+        Texture2D Card5;
+        Texture2D Card7;
+        Texture2D Card8;
+        Texture2D Card9;
+        Texture2D Card10;
+        Texture2D Card11;
+        Texture2D Card12;
+        Texture2D Card13;
+        Texture2D Card14;
+        Texture2D Card15;
+        Texture2D Card16;
+        Texture2D Card17;
+        Texture2D Card18;
+        Texture2D Card19;
+        Texture2D Card20;
+        Texture2D Card21;
+        Texture2D Card22;
+        Texture2D Card23;
+        Texture2D Card24;
+        Texture2D Card25;
+        Texture2D Card26;
+
+        //Cards 27 - 29 are spell cards
+        Texture2D Card27;
+        Texture2D Card28;
+        Texture2D Card29;
+
+        //cards 30 - 40 are minor minions "summon by other minions"
+        Texture2D Card30;
+        Texture2D Card31;
+        Texture2D Card32;
+        Texture2D Card33;
+        Texture2D Card34;
+        Texture2D Card35;
+        Texture2D Card36;
+        Texture2D Card37;
+        Texture2D Card38;
+        Texture2D Card39;
+        Texture2D Card40;
+
+        //Cards 41 - 46 are spell minions "summon by spells"
+        Texture2D Card41;
+        Texture2D Card42;
+        Texture2D Card43;
+        Texture2D Card44;
+        Texture2D Card45;
+        Texture2D Card46;
+
+        //card 47 are special cards "former classmates"
+        Texture2D Card47;
+
+        //buttons and background
+        Texture2D CRLB;
+        Texture2D CRENB;
+        Texture2D CRAB;
+        Texture2D CREXB;
+        Texture2D CRRAB;
+        Texture2D CRLAB;
+        Texture2D CRBG;
+
+        //PlayAI setup
+        Texture2D PAIBG;
+        Texture2D PAIMRBH;
+        Texture2D PAIMRDH;
+        Texture2D PAIECB;
 
         public SoundEffect buttonClicked;
 
@@ -109,7 +180,7 @@ namespace HearthstoneModGame
                 else if (menu.rButtonIsClicked == true)
                 {
                     previousScreen = currentScreen;
-                    currentScreen = "PlayAIMenu";
+                    currentScreen = "cardReview";
                     this.Exit();
                 }
                 else if (menu.eButtonIsClicked)
@@ -142,6 +213,8 @@ namespace HearthstoneModGame
             {
                 
             }
+
+            if (currentScreen == "cardReview")
             
             base.Draw(gameTime);
         }
