@@ -285,55 +285,55 @@ namespace HearthstoneModGame
 
         //Cam A. spring
         Texture2D Bat_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect BatIntroMusic;
+        SoundEffect BatEntrenceQuote;
+        SoundEffect BatAttackQuote;
+        SoundEffect BatAbilityQuote;
+        SoundEffect BatDeathQuote;
 
         Texture2D Glove_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect GloveIntroMusic;
+        SoundEffect GloveEntrenceQuote;
+        SoundEffect GloveAttackQuote;
+        SoundEffect GloveAbilityQuote;
+        SoundEffect GloveDeathQuote;
 
         Texture2D Baseball_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect BaseballIntroMusic;
+        SoundEffect BaseballEntrenceQuote;
+        SoundEffect BaseballAttackQuote;
+        SoundEffect BaseballAbilityQuote;
+        SoundEffect BaseballDeathQuote;
 
         //Cam A. Gamer form
         Texture2D Spartain_150_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Spartain_150IntroMusic;
+        SoundEffect Spartain_150EntrenceQuote;
+        SoundEffect Spartain_150AttackQuote;
+        SoundEffect Spartain_150AbilityQuote;
+        SoundEffect Spartain_150DeathQuote;
 
         Texture2D HearthStone_Challenger_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect HearthStone_ChallengerIntroMusic;
+        SoundEffect HearthStone_ChallengerEntrenceQuote;
+        SoundEffect HearthStone_ChallengerAttackQuote;
+        SoundEffect HearthStone_ChallengerAbilityQuote;
+        SoundEffect HearthStone_ChallengerDeathQuote;
 
         //Spell Minions
         Texture2D Java_Book_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Java_BookIntroMusic;
+        SoundEffect Java_BookEntrenceQuote;
+        SoundEffect Java_BookAttackQuote;
+        SoundEffect Java_BookAbilityQuote;
+        SoundEffect Java_BookDeathQuote;
 
         Texture2D C_Plus_Plus_Book_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect C_Plus_Plus_BookIntroMusic;
+        SoundEffect C_Plus_Plus_BookEntrenceQuote;
+        SoundEffect C_Plus_Plus_BookAttackQuote;
+        SoundEffect C_Plus_Plus_BookAbilityQuote;
+        SoundEffect C_Plus_Plus_BookDeathQuote;
 
         Texture2D C_Sharp_Book_Card;
         SoundEffect C_Sharp_BookIntroMusic;
