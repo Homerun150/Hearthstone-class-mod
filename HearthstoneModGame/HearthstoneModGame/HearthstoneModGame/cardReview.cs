@@ -63,172 +63,172 @@ namespace HearthstoneModGame
         SoundEffect ColinDeathQuote;
 
         Texture2D Brendon_S_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Brendon_SIntroMusic;
+        SoundEffect Brendon_SEntrenceQuote;
+        SoundEffect Brendon_SAttackQuote;
+        SoundEffect Brendon_SAbilityQuote;
+        SoundEffect Brendon_SDeathQuote;
 
         Texture2D Dekota_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect DekotaIntroMusic;
+        SoundEffect DekotaEntrenceQuote;
+        SoundEffect DekotaAttackQuote;
+        SoundEffect DekotaAbilityQuote;
+        SoundEffect DekotaDeathQuote;
 
         Texture2D Tristan_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect TristanIntroMusic;
+        SoundEffect TristanEntrenceQuote;
+        SoundEffect TristanAttackQuote;
+        SoundEffect TristanAbilityQuote;
+        SoundEffect TristanDeathQuote;
 
         Texture2D Jamie_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect JamieIntroMusic;
+        SoundEffect JamieEntrenceQuote;
+        SoundEffect JamieAttackQuote;
+        SoundEffect JamieAbilityQuote;
+        SoundEffect JamieDeathQuote;
 
         Texture2D Kyle_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect KyleIntroMusic;
+        SoundEffect KyleEntrenceQuote;
+        SoundEffect KyleAttackQuote;
+        SoundEffect KyleAbilityQuote;
+        SoundEffect KyleDeathQuote;
 
         Texture2D Kenny_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect KennyIntroMusic;
+        SoundEffect KennyEntrenceQuote;
+        SoundEffect KennyAttackQuote;
+        SoundEffect KennyAbilityQuote;
+        SoundEffect KennyDeathQuote;
 
         Texture2D Kirk_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect KirkIntroMusic;
+        SoundEffect KirkEntrenceQuote;
+        SoundEffect KirkAttackQuote;
+        SoundEffect KirkAbilityQuote;
+        SoundEffect KirkDeathQuote;
 
         Texture2D Cameron_P_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Cameron_PIntroMusic;
+        SoundEffect Cameron_PEntrenceQuote;
+        SoundEffect Cameron_PAttackQuote;
+        SoundEffect Cameron_PAbilityQuote;
+        SoundEffect Cameron_PDeathQuote;
 
         Texture2D Issic_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect IssicIntroMusic;
+        SoundEffect IssicEntrenceQuote;
+        SoundEffect IssicAttackQuote;
+        SoundEffect IssicAbilityQuote;
+        SoundEffect IssicDeathQuote;
 
         Texture2D Gregory_Honsinger_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Gregory_HonsingerIntroMusic;
+        SoundEffect Gregory_HonsingerEntrenceQuote;
+        SoundEffect Gregory_HonsingerAttackQuote;
+        SoundEffect Gregory_HonsingerAbilityQuote;
+        SoundEffect Gregory_HonsingerDeathQuote;
 
         Texture2D Josh_R_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Josh_RIntroMusic;
+        SoundEffect Josh_REntrenceQuote;
+        SoundEffect Josh_RAttackQuote;
+        SoundEffect Josh_RAbilityQuote;
+        SoundEffect Josh_RDeathQuote;
 
         Texture2D Breanna_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect BreannaIntroMusic;
+        SoundEffect BreannaEntrenceQuote;
+        SoundEffect BreannaAttackQuote;
+        SoundEffect BreannaAbilityQuote;
+        SoundEffect BreannaDeathQuote;
 
         Texture2D Joseph_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect JosephIntroMusic;
+        SoundEffect JosephEntrenceQuote;
+        SoundEffect JosephAttackQuote;
+        SoundEffect JosephAbilityQuote;
+        SoundEffect JosephDeathQuote;
 
-        Texture2D Greg_P;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        Texture2D Greg_P_Card;
+        SoundEffect Greg_PIntroMusic;
+        SoundEffect Greg_PEntrenceQuote;
+        SoundEffect Greg_PAttackQuote;
+        SoundEffect Greg_PAbilityQuote;
+        SoundEffect Greg_PDeathQuote;
 
         Texture2D Christan_Gorler_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Christan_GorlerIntroMusic;
+        SoundEffect Christan_GorlerEntrenceQuote;
+        SoundEffect Christan_GorlerAttackQuote;
+        SoundEffect Christan_GorlerAbilityQuote;
+        SoundEffect Christan_GorlerDeathQuote;
 
         Texture2D Josh_G_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Josh_GIntroMusic;
+        SoundEffect Josh_GEntrenceQuote;
+        SoundEffect Josh_GAttackQuote;
+        SoundEffect Josh_GAbilityQuote;
+        SoundEffect Josh_GDeathQuote;
 
         Texture2D Cameron_A_Card_1;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Cameron_A_Card_1IntroMusic;
+        SoundEffect Cameron_A_Card_1EntrenceQuote;
+        SoundEffect Cameron_A_Card_1AttackQuote;
+        SoundEffect Cameron_A_Card_1AbilityQuote;
+        SoundEffect Cameron_A_Card_1DeathQuote;
 
         Texture2D Connor_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect ConnorIntroMusic;
+        SoundEffect ConnorEntrenceQuote;
+        SoundEffect ConnorAttackQuote;
+        SoundEffect ConnorAbilityQuote;
+        SoundEffect ConnorDeathQuote;
 
         Texture2D Jhon_W_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Jhon_WIntroMusic;
+        SoundEffect Jhon_WEntrenceQuote;
+        SoundEffect Jhon_WAttackQuote;
+        SoundEffect Jhon_WAbilityQuote;
+        SoundEffect Jhon_WDeathQuote;
 
         Texture2D Emari_L_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Emari_LIntroMusic;
+        SoundEffect Emari_LEntrenceQuote;
+        SoundEffect Emari_LAttackQuote;
+        SoundEffect Emari_LAbilityQuote;
+        SoundEffect Emari_LDeathQuote;
 
         Texture2D Andy_P_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Andy_PIntroMusic;
+        SoundEffect Andy_PEntrenceQuote;
+        SoundEffect Andy_PAttackQuote;
+        SoundEffect Andy_PAbilityQuote;
+        SoundEffect Andy_PDeathQuote;
 
         Texture2D Chayse_H_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Chayse_HIntroMusic;
+        SoundEffect Chayse_HEntrenceQuote;
+        SoundEffect Chayse_HAttackQuote;
+        SoundEffect Chayse_HAbilityQuote;
+        SoundEffect Chayse_HDeathQuote;
 
         Texture2D Cameron_A_Card_2;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Cameron_A_Card_2IntroMusic;
+        SoundEffect Cameron_A_Card_2EntrenceQuote;
+        SoundEffect Cameron_A_Card_2AttackQuote;
+        SoundEffect Cameron_A_Card_2AbilityQuote;
+        SoundEffect Cameron_A_Card_2DeathQuote;
 
         Texture2D Patrick_B_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Patrick_BIntroMusic;
+        SoundEffect Patrick_BEntrenceQuote;
+        SoundEffect Patrick_BAttackQuote;
+        SoundEffect Patrick_BAbilityQuote;
+        SoundEffect Patrick_BDeathQuote;
 
         //Spell Cards
         Texture2D Spell_Learning_Time;
@@ -241,47 +241,47 @@ namespace HearthstoneModGame
 
         //Cam A. fall
         Texture2D Shoulder_Pad_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Shoulder_PadIntroMusic;
+        SoundEffect Shoulder_PadEntrenceQuote;
+        SoundEffect Shoulder_PadAttackQuote;
+        SoundEffect Shoulder_PadAbilityQuote;
+        SoundEffect Shoulder_PadDeathQuote;
 
         Texture2D FootBall_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect FootBallIntroMusic;
+        SoundEffect FootBallEntrenceQuote;
+        SoundEffect FootBallAttackQuote;
+        SoundEffect FootBallAbilityQuote;
+        SoundEffect FootBallDeathQuote;
 
         Texture2D Helment_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect HelmentIntroMusic;
+        SoundEffect HelmentEntrenceQuote;
+        SoundEffect HelmentAttackQuote;
+        SoundEffect HelmentAbilityQuote;
+        SoundEffect HelmentDeathQuote;
 
         //Cam A. winter
         Texture2D Bowling_Ball_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect Bowling_BallIntroMusic;
+        SoundEffect Bowling_BallEntrenceQuote;
+        SoundEffect Bowling_BallAttackQuote;
+        SoundEffect Bowling_BallAbilityQuote;
+        SoundEffect Bowling_BallDeathQuote;
 
         Texture2D Pin_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect PinIntroMusic;
+        SoundEffect PinEntrenceQuote;
+        SoundEffect PinAttackQuote;
+        SoundEffect PinAbilityQuote;
+        SoundEffect PinDeathQuote;
 
         Texture2D Bag_Card;
-        SoundEffect ColinIntroMusic;
-        SoundEffect ColinEntrenceQuote;
-        SoundEffect ColinAttackQuote;
-        SoundEffect ColinAbilityQuote;
-        SoundEffect ColinDeathQuote;
+        SoundEffect BagIntroMusic;
+        SoundEffect BagEntrenceQuote;
+        SoundEffect BagAttackQuote;
+        SoundEffect BagAbilityQuote;
+        SoundEffect BagDeathQuote;
 
         //Cam A. spring
         Texture2D Bat_Card;
@@ -371,9 +371,175 @@ namespace HearthstoneModGame
         SoundEffect ArronAbilityQuote;
         SoundEffect ArronDeathQuote;
 
-        public cardReview()
+        public cardReview(Texture2D card1, SoundEffect card1IntroMusic, SoundEffect card1EntrenceQuote, SoundEffect card1AttackQuote, SoundEffect card1AbilityQuote, SoundEffect card1DeathQuote, Texture2D card2, SoundEffect card2IntroMusic, SoundEffect card2EntrenceQuote, SoundEffect card2AttackQuote, SoundEffect card2AbilityQuote, SoundEffect card2DeathQuote, Texture2D card3, SoundEffect card3IntroMusic, SoundEffect card3EntrenceQuote, SoundEffect card3AttackQuote, SoundEffect card3AbilityQuote, SoundEffect card3DeathQuote, Texture2D card4, SoundEffect card4IntroMusic, SoundEffect card4EntrenceQuote, SoundEffect card4AttackQuote, SoundEffect card4AbilityQuote, SoundEffect card4DeathQuote, Texture2D card5, SoundEffect card5IntroMusic, SoundEffect card5EntrenceQuote, SoundEffect card5AttackQuote, SoundEffect card5AbilityQuote, SoundEffect card5DeathQuote, Texture2D card6, SoundEffect card6IntroMusic, SoundEffect card6EntrenceQuote, SoundEffect card6AttackQuote, SoundEffect card6AbilityQuote, SoundEffect card6DeathQuote, Texture2D card7, SoundEffect card7IntroMusic, SoundEffect card7EntrenceQuote, SoundEffect card7AttackQuote, SoundEffect card7AbilityQuote, SoundEffect card7DeathQuote, Texture2D card8, SoundEffect card8IntroMusic, SoundEffect card8EntrenceQuote, SoundEffect card8AttackQuote, SoundEffect card8AbilityQuote, SoundEffect card8DeathQuote, Texture2D card9, SoundEffect card9IntroMusic, SoundEffect card9EntrenceQuote, SoundEffect card9AttackQuote, SoundEffect card9AbilityQuote, SoundEffect card9DeathQuote, Texture2D card10, SoundEffect card10IntroMusic, SoundEffect card10EntrenceQuote, SoundEffect card10AttackQuote, SoundEffect card10AbilityQuote, SoundEffect card10DeathQuote, Texture2D card11, SoundEffect card11IntroMusic, SoundEffect card11EntrenceQuote, SoundEffect card11AttackQuote, SoundEffect card11AbilityQuote, SoundEffect card11DeathQuote, Texture2D card12, SoundEffect card12IntroMusic, SoundEffect card12EntrenceQuote, SoundEffect card12AttackQuote, SoundEffect card12AbilityQuote, SoundEffect card12DeathQuote, Texture2D card13, SoundEffect card13IntroMusic, SoundEffect card13EntrenceQuote, SoundEffect card13AttackQuote, SoundEffect card13AbilityQuote, SoundEffect card13DeathQuote, Texture2D card14, SoundEffect card14IntroMusic, SoundEffect card14EntrenceQuote, SoundEffect card14AttackQuote, SoundEffect card14AbilityQuote, SoundEffect card14DeathQuote, Texture2D card15, SoundEffect card15IntroMusic, SoundEffect card15EntrenceQuote, SoundEffect card15AttackQuote, SoundEffect card15AbilityQuote, SoundEffect card15DeathQuote, Texture2D card16, SoundEffect card16IntroMusic, SoundEffect card16EntrenceQuote, SoundEffect card16AttackQuote, SoundEffect card16AbilityQuote, SoundEffect card16DeathQuote, Texture2D card17, SoundEffect card17IntroMusic, SoundEffect card17EntrenceQuote, SoundEffect card17AttackQuote, SoundEffect card17AbilityQuote, SoundEffect card17DeathQuote, Texture2D card18, SoundEffect card18IntroMusic, SoundEffect card18EntrenceQuote, SoundEffect card18AttackQuote, SoundEffect card18AbilityQuote, SoundEffect card18DeathQuote, Texture2D card19, SoundEffect card19IntroMusic, SoundEffect card19EntrenceQuote, SoundEffect card19AttackQuote, SoundEffect card19AbilityQuote, SoundEffect card19DeathQuote, Texture2D card20, SoundEffect card20IntroMusic, SoundEffect card20EntrenceQuote, SoundEffect card20AttackQuote, SoundEffect card20AbilityQuote, SoundEffect card20DeathQuote, Texture2D card21, SoundEffect card21IntroMusic, SoundEffect card21EntrenceQuote, SoundEffect card21AttackQuote, SoundEffect card21AbilityQuote, SoundEffect card21DeathQuote, Texture2D card22, SoundEffect card22IntroMusic, SoundEffect card22EntrenceQuote, SoundEffect card22AttackQuote, SoundEffect card22AbilityQuote, SoundEffect card22DeathQuote, Texture2D card23, SoundEffect card23IntroMusic, SoundEffect card23EntrenceQuote, SoundEffect card23AttackQuote, SoundEffect card23AbilityQuote, SoundEffect card23DeathQuote, Texture2D card24, SoundEffect card24IntroMusic, SoundEffect card24EntrenceQuote, SoundEffect card24AttackQuote, SoundEffect card24AbilityQuote, SoundEffect card24DeathQuote, Texture2D card25, SoundEffect card25IntroMusic, SoundEffect card25EntrenceQuote, SoundEffect card25AttackQuote, SoundEffect card25AbilityQuote, SoundEffect card25DeathQuote, Texture2D card26, SoundEffect card26IntroMusic, SoundEffect card26EntrenceQuote, SoundEffect card26AttackQuote, SoundEffect card26AbilityQuote, SoundEffect card26DeathQuote, Texture2D card27, Texture2D card28, Texture2D card29, Texture2D card30, SoundEffect card30IntroMusic, SoundEffect card30EntrenceQuote, SoundEffect card30AttackQuote, SoundEffect card30AbilityQuote, SoundEffect card30DeathQuote, Texture2D card31, SoundEffect card31IntroMusic, SoundEffect card31EntrenceQuote, SoundEffect card31AttackQuote, SoundEffect card31AbilityQuote, SoundEffect card31DeathQuote, Texture2D card32, SoundEffect card32IntroMusic, SoundEffect card32EntrenceQuote, SoundEffect card32AttackQuote, SoundEffect card32AbilityQuote, SoundEffect card32DeathQuote, Texture2D card33, SoundEffect card33IntroMusic, SoundEffect card33EntrenceQuote, SoundEffect card33AttackQuote, SoundEffect card33AbilityQuote, SoundEffect card33DeathQuote, Texture2D card34, SoundEffect card34IntroMusic, SoundEffect card34EntrenceQuote, SoundEffect card34AttackQuote, SoundEffect card34AbilityQuote, SoundEffect card34DeathQuote, Texture2D card35, SoundEffect card35IntroMusic, SoundEffect card35EntrenceQuote, SoundEffect card35AttackQuote, SoundEffect card35AbilityQuote, SoundEffect card35DeathQuote, Texture2D card36, SoundEffect card36IntroMusic, SoundEffect card36EntrenceQuote, SoundEffect card36AttackQuote, SoundEffect card36AbilityQuote, SoundEffect card36DeathQuote, Texture2D card37, SoundEffect card37IntroMusic, SoundEffect card37EntrenceQuote, SoundEffect card37AttackQuote, SoundEffect card37AbilityQuote, SoundEffect card37DeathQuote, Texture2D card38, SoundEffect card38IntroMusic, SoundEffect card38EntrenceQuote, SoundEffect card38AttackQuote, SoundEffect card38AbilityQuote, SoundEffect card38DeathQuote, Texture2D card39, SoundEffect card39IntroMusic, SoundEffect card39EntrenceQuote, SoundEffect card39AttackQuote, SoundEffect card39AbilityQuote, SoundEffect card39DeathQuote, Texture2D card40, SoundEffect card40IntroMusic, SoundEffect card40EntrenceQuote, SoundEffect card40AttackQuote, SoundEffect card40AbilityQuote, SoundEffect card40DeathQuote, Texture2D card41, SoundEffect card41IntroMusic, SoundEffect card41EntrenceQuote, SoundEffect card41AttackQuote, SoundEffect card41AbilityQuote, SoundEffect card41DeathQuote, Texture2D card42, SoundEffect card42IntroMusic, SoundEffect card42EntrenceQuote, SoundEffect card42AttackQuote, SoundEffect card42AbilityQuote, SoundEffect card42DeathQuote, Texture2D card43, SoundEffect card43IntroMusic, SoundEffect card43EntrenceQuote, SoundEffect card43AttackQuote, SoundEffect card43AbilityQuote, SoundEffect card43DeathQuote, Texture2D card44, SoundEffect card44IntroMusic, SoundEffect card44EntrenceQuote, SoundEffect card44AttackQuote, SoundEffect card44AbilityQuote, SoundEffect card44DeathQuote, Texture2D card45, SoundEffect card45IntroMusic, SoundEffect card45EntrenceQuote, SoundEffect card45AttackQuote, SoundEffect card45AbilityQuote, SoundEffect card45DeathQuote, Texture2D card46, SoundEffect card46IntroMusic, SoundEffect card46EntrenceQuote, SoundEffect card46AttackQuote, SoundEffect card46AbilityQuote, SoundEffect card46DeathQuote, Texture2D card47, SoundEffect card47IntroMusic, SoundEffect card47EntrenceQuote, SoundEffect card47AttackQuote, SoundEffect card47AbilityQuote, SoundEffect card47DeathQuote)
         {
+            Jacob_R_Card = card1;
+            JacobRIntroMusic = card1IntroMusic;
+            JacobREntrenceQuote = card1EntrenceQuote;
+            JacobRAttackQuote = card1AttackQuote;
+            JacobRAbilityQuote = card1AbilityQuote;
+            JacobRDeathQuote = card1DeathQuote;
 
+            Colin_Card = card2;
+            ColinIntroMusic = card2IntroMusic;
+            ColinEntrenceQuote = card2EntrenceQuote;
+            ColinAttackQuote = card2AttackQuote;
+            ColinAbilityQuote = card2AbilityQuote;
+            ColinDeathQuote = card2DeathQuote;
+
+            Brendon_S_Card = card3;
+            Brendon_SIntroMusic = card3IntroMusic;
+            Brendon_SEntrenceQuote = card3EntrenceQuote;
+            Brendon_SAttackQuote = card3AttackQuote;
+            Brendon_SAbilityQuote = card3AbilityQuote;
+            Brendon_SDeathQuote = card3DeathQuote;
+
+            Dekota_Card = card4;
+            DekotaIntroMusic = card4IntroMusic;
+            DekotaEntrenceQuote = card4EntrenceQuote;
+            DekotaAttackQuote = card4AttackQuote;
+            DekotaAbilityQuote = card4AbilityQuote;
+            DekotaDeathQuote = card4DeathQuote;
+
+            Tristan_Card = card5;
+            TristanIntroMusic = card5IntroMusic;
+            TristanEntrenceQuote = card5EntrenceQuote;
+            TristanAttackQuote = card5AttackQuote;
+            TristanAbilityQuote = card5AbilityQuote;
+            TristanDeathQuote = card5DeathQuote;
+
+            Jamie_Card = card6;
+            JamieIntroMusic = card6IntroMusic;
+            JamieEntrenceQuote = card6EntrenceQuote;
+            JamieAttackQuote = card6AttackQuote;
+            JamieAbilityQuote = card6AbilityQuote;
+            JamieDeathQuote = card6DeathQuote;
+
+            Kyle_Card = card7;
+            KyleIntroMusic = card7IntroMusic;
+            KyleEntrenceQuote = card7EntrenceQuote;
+            KyleAttackQuote = card7AttackQuote;
+            KyleAbilityQuote = card7AbilityQuote;
+            KyleDeathQuote = card7DeathQuote;
+
+            Kenny_Card = card8;
+            KennyIntroMusic = card8IntroMusic;
+            KennyEntrenceQuote = card8EntrenceQuote;
+            KennyAttackQuote = card8AttackQuote;
+            KennyAbilityQuote = card8AbilityQuote;
+            KennyDeathQuote = card8DeathQuote;
+
+            Kirk_Card = card9;
+            KirkIntroMusic = card9IntroMusic;
+            KirkEntrenceQuote = card9EntrenceQuote;
+            KirkAttackQuote = card9AttackQuote;
+            KirkAbilityQuote = card9AbilityQuote;
+            KirkDeathQuote = card9DeathQuote;
+
+            Cameron_P_Card = card10;
+            Cameron_PIntroMusic = card10IntroMusic;
+            Cameron_PEntrenceQuote = card10EntrenceQuote;
+            Cameron_PAttackQuote = card10AttackQuote;
+            Cameron_PAbilityQuote = card10AbilityQuote;
+            Cameron_PDeathQuote = card10DeathQuote;
+
+            Issic_Card = card11;
+            IssicIntroMusic = card11IntroMusic;
+            IssicEntrenceQuote = card11EntrenceQuote;
+            IssicAttackQuote = card11AttackQuote;
+            IssicAbilityQuote = card11AbilityQuote;
+            IssicDeathQuote = card11DeathQuote;
+
+            Gregory_Honsinger_Card = card12;
+            Gregory_HonsingerIntroMusic = card12IntroMusic;
+            Gregory_HonsingerEntrenceQuote = card12EntrenceQuote;
+            Gregory_HonsingerAttackQuote = card12AttackQuote;
+            Gregory_HonsingerAbilityQuote = card12AbilityQuote;
+            Gregory_HonsingerDeathQuote = card12DeathQuote;
+
+            Josh_R_Card = card13;
+            Josh_RIntroMusic = card13IntroMusic;
+            Josh_REntrenceQuote = card13EntrenceQuote;
+            Josh_RAttackQuote = card13AttackQuote;
+            Josh_RAbilityQuote = card13AbilityQuote;
+            Josh_RDeathQuote = card13DeathQuote;
+
+            Breanna_Card = card14;
+            BreannaIntroMusic = card14IntroMusic;
+            BreannaEntrenceQuote = card14EntrenceQuote;
+            BreannaAttackQuote = card14AttackQuote;
+            BreannaAbilityQuote = card14AbilityQuote;
+            BreannaDeathQuote = card14DeathQuote;
+
+            Joseph_Card = card15;
+            JosephIntroMusic = card15IntroMusic;
+            JosephEntrenceQuote = card15EntrenceQuote;
+            JosephAttackQuote = card15AttackQuote;
+            JosephAbilityQuote = card15AbilityQuote;
+            JosephDeathQuote = card15DeathQuote;
+
+            Greg_P_Card = card16;
+            Greg_PIntroMusic = card16IntroMusic;
+            Greg_PEntrenceQuote = card16EntrenceQuote;
+            Greg_PAttackQuote = card16AttackQuote;
+            Greg_PAbilityQuote = card16AbilityQuote;
+            Greg_PDeathQuote = card16DeathQuote;
+
+            Christan_Gorler_Card = card17;
+            Christan_GorlerIntroMusic = card17IntroMusic;
+            Christan_GorlerEntrenceQuote = card17EntrenceQuote;
+            Christan_GorlerAttackQuote = card17AttackQuote;
+            Christan_GorlerAbilityQuote = card17AbilityQuote;
+            Christan_GorlerDeathQuote = card17DeathQuote;
+
+            Josh_G_Card = card18;
+            Josh_GIntroMusic = card18IntroMusic;
+            Josh_GEntrenceQuote = card18EntrenceQuote;
+            Josh_GAttackQuote = card18AttackQuote;
+            Josh_GAbilityQuote = card18AbilityQuote;
+            Josh_GDeathQuote = card18DeathQuote;
+
+            Cameron_A_Card_1 = card19;
+            Cameron_A_Card_1IntroMusic = card19IntroMusic;
+            Cameron_A_Card_1EntrenceQuote = card19EntrenceQuote;
+            Cameron_A_Card_1AttackQuote = card19AttackQuote;
+            Cameron_A_Card_1AbilityQuote = card19AbilityQuote;
+            Cameron_A_Card_1DeathQuote = card19DeathQuote;
+
+            Connor_Card = card20;
+            ConnorIntroMusic = card20IntroMusic;
+            ConnorEntrenceQuote = card20EntrenceQuote;
+            ConnorAttackQuote = card20AttackQuote;
+            ConnorAbilityQuote = card20AbilityQuote;
+            ConnorDeathQuote = card20DeathQuote;
+
+            Jhon_W_Card = card21;
+            Jhon_WIntroMusic = card21IntroMusic;
+            Jhon_WEntrenceQuote = card21EntrenceQuote;
+            Jhon_WAttackQuote = card21AttackQuote;
+            Jhon_WAbilityQuote = card21AbilityQuote;
+            Jhon_WDeathQuote = card21DeathQuote;
+
+            Emari_L_Card = card22;
+            Emari_LIntroMusic = card22IntroMusic;
+            Emari_LEntrenceQuote = card22EntrenceQuote;
+            Emari_LAttackQuote = card22AttackQuote;
+            Emari_LAbilityQuote = card22AbilityQuote;
+            Emari_LDeathQuote = card22DeathQuote;
+
+            Andy_P_Card = card23;
+            Andy_PIntroMusic = card23IntroMusic;
+            Andy_PEntrenceQuote = card23EntrenceQuote;
+            Andy_PAttackQuote = card23AttackQuote;
+            Andy_PAbilityQuote = card23AbilityQuote;
+            Andy_PDeathQuote = card23DeathQuote;
+
+            Chayse_H_Card = card24;
+            Chayse_HIntroMusic = card24IntroMusic;
+            Chayse_HEntrenceQuote = card24EntrenceQuote;
+            Chayse_HAttackQuote = card24AttackQuote;
+            Chayse_HAbilityQuote = card24AbilityQuote;
+            Chayse_HDeathQuote = card24DeathQuote;
         }
         
         public void Draw(SpriteBatch spritebatch)
