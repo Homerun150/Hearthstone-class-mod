@@ -30,58 +30,190 @@ namespace HearthstoneModGame
         public string previousScreen = "";
 
         //Card review setup
+        cardReview cardreview;
         //Card list check
         //cards 1-26 are main card minions
         Texture2D Card1;
-
+        SoundEffect Card1IntroMusic;
+        SoundEffect Card1EntrenceQuote;
+        SoundEffect Card1AttackQuote;
+        SoundEffect Card1AbilityQuote;
+        SoundEffect Card1DeathQuote;
 
         Texture2D Card2;
+        SoundEffect Card2IntroMusic;
+        SoundEffect Card2EntrenceQuote;
+        SoundEffect Card2AttackQuote;
+        SoundEffect Card2AbilityQuote;
+        SoundEffect Card2DeathQuote;
 
         Texture2D Card3;
+        SoundEffect Card3IntroMusic;
+        SoundEffect Card3EntrenceQuote;
+        SoundEffect Card3AttackQuote;
+        SoundEffect Card3AbilityQuote;
+        SoundEffect Card3DeathQuote;
 
         Texture2D Card4;
+        SoundEffect Card4IntroMusic;
+        SoundEffect Card4EntrenceQuote;
+        SoundEffect Card4AttackQuote;
+        SoundEffect Card4AbilityQuote;
+        SoundEffect Card4DeathQuote;
 
         Texture2D Card5;
+        SoundEffect Card5IntroMusic;
+        SoundEffect Card5EntrenceQuote;
+        SoundEffect Card5AttackQuote;
+        SoundEffect Card5AbilityQuote;
+        SoundEffect Card5DeathQuote;
+
+        Texture2D Card6;
+        SoundEffect Card6IntroMusic;
+        SoundEffect Card6EntrenceQuote;
+        SoundEffect Card6AttackQuote;
+        SoundEffect Card6AbilityQuote;
+        SoundEffect Card6DeathQuote;
 
         Texture2D Card7;
+        SoundEffect Card7IntroMusic;
+        SoundEffect Card7EntrenceQuote;
+        SoundEffect Card7AttackQuote;
+        SoundEffect Card7AbilityQuote;
+        SoundEffect Card7DeathQuote;
 
         Texture2D Card8;
+        SoundEffect Card8IntroMusic;
+        SoundEffect Card8EntrenceQuote;
+        SoundEffect Card8AttackQuote;
+        SoundEffect Card8AbilityQuote;
+        SoundEffect Card8DeathQuote;
 
         Texture2D Card9;
+        SoundEffect Card9IntroMusic;
+        SoundEffect Card9EntrenceQuote;
+        SoundEffect Card9AttackQuote;
+        SoundEffect Card9AbilityQuote;
+        SoundEffect Card9DeathQuote;
 
         Texture2D Card10;
+        SoundEffect Card10IntroMusic;
+        SoundEffect Card10EntrenceQuote;
+        SoundEffect Card10AttackQuote;
+        SoundEffect Card10AbilityQuote;
+        SoundEffect Card10DeathQuote;
 
         Texture2D Card11;
+        SoundEffect Card11IntroMusic;
+        SoundEffect Card11EntrenceQuote;
+        SoundEffect Card11AttackQuote;
+        SoundEffect Card11AbilityQuote;
+        SoundEffect Card11DeathQuote;
 
         Texture2D Card12;
+        SoundEffect Card12IntroMusic;
+        SoundEffect Card12EntrenceQuote;
+        SoundEffect Card12AttackQuote;
+        SoundEffect Card12AbilityQuote;
+        SoundEffect Card12DeathQuote;
 
         Texture2D Card13;
+        SoundEffect Card13IntroMusic;
+        SoundEffect Card13EntrenceQuote;
+        SoundEffect Card13AttackQuote;
+        SoundEffect Card13AbilityQuote;
+        SoundEffect Card13DeathQuote;
 
         Texture2D Card14;
+        SoundEffect Card14IntroMusic;
+        SoundEffect Card14EntrenceQuote;
+        SoundEffect Card14AttackQuote;
+        SoundEffect Card14AbilityQuote;
+        SoundEffect Card14DeathQuote;
 
         Texture2D Card15;
+        SoundEffect Card15IntroMusic;
+        SoundEffect Card15EntrenceQuote;
+        SoundEffect Card15AttackQuote;
+        SoundEffect Card15AbilityQuote;
+        SoundEffect Card15DeathQuote;
 
         Texture2D Card16;
+        SoundEffect Card16IntroMusic;
+        SoundEffect Card16EntrenceQuote;
+        SoundEffect Card16AttackQuote;
+        SoundEffect Card16AbilityQuote;
+        SoundEffect Card16DeathQuote;
 
         Texture2D Card17;
+        SoundEffect Card17IntroMusic;
+        SoundEffect Card17EntrenceQuote;
+        SoundEffect Card17AttackQuote;
+        SoundEffect Card17AbilityQuote;
+        SoundEffect Card17DeathQuote;
 
         Texture2D Card18;
+        SoundEffect Card18IntroMusic;
+        SoundEffect Card18EntrenceQuote;
+        SoundEffect Card18AttackQuote;
+        SoundEffect Card18AbilityQuote;
+        SoundEffect Card18DeathQuote;
 
         Texture2D Card19;
+        SoundEffect Card19IntroMusic;
+        SoundEffect Card19EntrenceQuote;
+        SoundEffect Card19AttackQuote;
+        SoundEffect Card19AbilityQuote;
+        SoundEffect Card19DeathQuote;
 
         Texture2D Card20;
+        SoundEffect Card20IntroMusic;
+        SoundEffect Card20EntrenceQuote;
+        SoundEffect Card20AttackQuote;
+        SoundEffect Card20AbilityQuote;
+        SoundEffect Card20DeathQuote;
 
         Texture2D Card21;
+        SoundEffect Card21IntroMusic;
+        SoundEffect Card21EntrenceQuote;
+        SoundEffect Card21AttackQuote;
+        SoundEffect Card21AbilityQuote;
+        SoundEffect Card21DeathQuote;
 
         Texture2D Card22;
+        SoundEffect Card22IntroMusic;
+        SoundEffect Card22EntrenceQuote;
+        SoundEffect Card22AttackQuote;
+        SoundEffect Card22AbilityQuote;
+        SoundEffect Card22DeathQuote;
 
         Texture2D Card23;
+        SoundEffect Card23IntroMusic;
+        SoundEffect Card23EntrenceQuote;
+        SoundEffect Card23AttackQuote;
+        SoundEffect Card23AbilityQuote;
+        SoundEffect Card23DeathQuote;
 
         Texture2D Card24;
+        SoundEffect Card24IntroMusic;
+        SoundEffect Card24EntrenceQuote;
+        SoundEffect Card24AttackQuote;
+        SoundEffect Card24AbilityQuote;
+        SoundEffect Card24DeathQuote;
 
         Texture2D Card25;
+        SoundEffect Card25IntroMusic;
+        SoundEffect Card25EntrenceQuote;
+        SoundEffect Card25AttackQuote;
+        SoundEffect Card25AbilityQuote;
+        SoundEffect Card25DeathQuote;
 
         Texture2D Card26;
+        SoundEffect Card26IntroMusic;
+        SoundEffect Card26EntrenceQuote;
+        SoundEffect Card26AttackQuote;
+        SoundEffect Card26AbilityQuote;
+        SoundEffect Card26DeathQuote;
 
         //Cards 27 - 29 are spell cards
         Texture2D Card27;
@@ -92,50 +224,142 @@ namespace HearthstoneModGame
 
         //cards 30 - 40 are minor minions "summon by other minions"
         Texture2D Card30;
+        SoundEffect Card30IntroMusic;
+        SoundEffect Card30EntrenceQuote;
+        SoundEffect Card30AttackQuote;
+        SoundEffect Card30AbilityQuote;
+        SoundEffect Card30DeathQuote;
 
         Texture2D Card31;
+        SoundEffect Card31IntroMusic;
+        SoundEffect Card31EntrenceQuote;
+        SoundEffect Card31AttackQuote;
+        SoundEffect Card31AbilityQuote;
+        SoundEffect Card31DeathQuote;
 
         Texture2D Card32;
+        SoundEffect Card32IntroMusic;
+        SoundEffect Card32EntrenceQuote;
+        SoundEffect Card32AttackQuote;
+        SoundEffect Card32AbilityQuote;
+        SoundEffect Card32DeathQuote;
 
         Texture2D Card33;
+        SoundEffect Card33IntroMusic;
+        SoundEffect Card33EntrenceQuote;
+        SoundEffect Card33AttackQuote;
+        SoundEffect Card33AbilityQuote;
+        SoundEffect Card33DeathQuote;
 
         Texture2D Card34;
+        SoundEffect Card34IntroMusic;
+        SoundEffect Card34EntrenceQuote;
+        SoundEffect Card34AttackQuote;
+        SoundEffect Card34AbilityQuote;
+        SoundEffect Card34DeathQuote;
 
         Texture2D Card35;
+        SoundEffect Card35IntroMusic;
+        SoundEffect Card35EntrenceQuote;
+        SoundEffect Card35AttackQuote;
+        SoundEffect Card35AbilityQuote;
+        SoundEffect Card35DeathQuote;
 
         Texture2D Card36;
+        SoundEffect Card36IntroMusic;
+        SoundEffect Card36EntrenceQuote;
+        SoundEffect Card36AttackQuote;
+        SoundEffect Card36AbilityQuote;
+        SoundEffect Card36DeathQuote;
 
         Texture2D Card37;
+        SoundEffect Card37IntroMusic;
+        SoundEffect Card37EntrenceQuote;
+        SoundEffect Card37AttackQuote;
+        SoundEffect Card37AbilityQuote;
+        SoundEffect Card37DeathQuote;
 
         Texture2D Card38;
+        SoundEffect Card38IntroMusic;
+        SoundEffect Card38EntrenceQuote;
+        SoundEffect Card38AttackQuote;
+        SoundEffect Card38AbilityQuote;
+        SoundEffect Card38DeathQuote;
 
         Texture2D Card39;
+        SoundEffect Card39IntroMusic;
+        SoundEffect Card139EntrenceQuote;
+        SoundEffect Card39AttackQuote;
+        SoundEffect Card139AbilityQuote;
+        SoundEffect Card39DeathQuote;
 
         Texture2D Card40;
+        SoundEffect Card40IntroMusic;
+        SoundEffect Card40EntrenceQuote;
+        SoundEffect Card40AttackQuote;
+        SoundEffect Card40AbilityQuote;
+        SoundEffect Card40DeathQuote;
 
         //Cards 41 - 46 are spell minions "summon by spells"
         Texture2D Card41;
+        SoundEffect Card41IntroMusic;
+        SoundEffect Card41EntrenceQuote;
+        SoundEffect Card41AttackQuote;
+        SoundEffect Card41AbilityQuote;
+        SoundEffect Card41DeathQuote;
 
         Texture2D Card42;
+        SoundEffect Card42IntroMusic;
+        SoundEffect Card42EntrenceQuote;
+        SoundEffect Card42AttackQuote;
+        SoundEffect Card42AbilityQuote;
+        SoundEffect Card42DeathQuote;
 
         Texture2D Card43;
+        SoundEffect Card43IntroMusic;
+        SoundEffect Card43EntrenceQuote;
+        SoundEffect Card43AttackQuote;
+        SoundEffect Card43AbilityQuote;
+        SoundEffect Card43DeathQuote;
 
         Texture2D Card44;
+        SoundEffect Card44IntroMusic;
+        SoundEffect Card44EntrenceQuote;
+        SoundEffect Card44AttackQuote;
+        SoundEffect Card44AbilityQuote;
+        SoundEffect Card44DeathQuote;
 
         Texture2D Card45;
+        SoundEffect Card45IntroMusic;
+        SoundEffect Card45EntrenceQuote;
+        SoundEffect Card45AttackQuote;
+        SoundEffect Card45AbilityQuote;
+        SoundEffect Card45DeathQuote;
 
         Texture2D Card46;
+        SoundEffect Card46IntroMusic;
+        SoundEffect Card46EntrenceQuote;
+        SoundEffect Card46AttackQuote;
+        SoundEffect Card46AbilityQuote;
+        SoundEffect Card46DeathQuote;
 
         //card 47 are special cards "former classmates"
         Texture2D Card47;
+        SoundEffect Card47IntroMusic;
+        SoundEffect Card47EntrenceQuote;
+        SoundEffect Card47AttackQuote;
+        SoundEffect Card47AbilityQuote;
+        SoundEffect Card47DeathQuote;
 
         //buttons and background
-        Texture2D CRLB;
-        Texture2D CRENB;
-        Texture2D CRAB;
-        Texture2D CREXB;
         Texture2D CRRAB;
         Texture2D CRLAB;
+        Texture2D CRIMB;
+        Texture2D CRENB;
+        Texture2D CRATQB;
+        Texture2D CRABQB;
+        Texture2D CRDQB;
+        Texture2D CREXB;
         Texture2D CRBG;
 
         //PlayAI setup
@@ -186,6 +410,7 @@ namespace HearthstoneModGame
             menuRCB = Content.Load<Texture2D>("review-card-fix");
             menuEB = Content.Load<Texture2D>("Exit");
 
+            //cardreview = new cardReview();
             menu = new MainMenu(menuBG, menuPAB, menuRCB, menuEB);
         }
 
@@ -213,13 +438,13 @@ namespace HearthstoneModGame
             if (currentScreen == "MainMenu")
             {
                 menu.Update();
-                if (menu.pAButtonIsClicked == true)
+                if (menu.pAButtonIsClicked)
                 {
                     previousScreen = currentScreen;
                     currentScreen = "PlayAIMenu";
                     this.Exit();
                 }
-                else if (menu.rButtonIsClicked == true)
+                else if (menu.rButtonIsClicked)
                 {
                     previousScreen = currentScreen;
                     currentScreen = "cardReview";
@@ -229,10 +454,7 @@ namespace HearthstoneModGame
                 {
                     this.Exit();
                 }
-                else
-                {
-
-                }
+               
             }
             base.Update(gameTime);
         }

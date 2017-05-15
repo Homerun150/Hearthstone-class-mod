@@ -14,6 +14,16 @@ namespace HearthstoneModGame
 {
     class PlayAI
     {
+        Texture2D Gamefield;
+
+        Texture2D card1;
+        Texture2D fieldMinion1;
+        Texture2D card2;
+
+        Vector2 playerMinionPosition1;
+
+        Vector2 aiMinionPosition1;
+
 
     }
 }
