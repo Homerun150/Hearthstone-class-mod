@@ -38,7 +38,7 @@ namespace HearthstoneModGame
         Vector2 PDQBPosition = new Vector2(900, 620);
         Vector2 RABPosition = new Vector2(50, 300);
         Vector2 LABPosition = new Vector2(1030, 300);
-        Vector2 CCPosition = new Vector2(600, 400);
+        Vector2 CCPosition = new Vector2(200, 50);
         Vector2 EBPosition = new Vector2(100, 100);
 
 
@@ -395,6 +395,16 @@ namespace HearthstoneModGame
         SoundEffect ArronAbilityQuote;
         SoundEffect ArronDeathQuote;
 
+        Texture2D CRRAB;
+        Texture2D CRLAB;
+        Texture2D CRIMB;
+        Texture2D CREQB;
+        Texture2D CRATQB;
+        Texture2D CRABQB;
+        Texture2D CRDQB;
+        Texture2D CREXB;
+        Texture2D CRBG;
+
         public cardReview(Texture2D card1, SoundEffect card1IntroMusic, SoundEffect card1EntrenceQuote, SoundEffect card1AttackQuote, SoundEffect card1AbilityQuote, SoundEffect card1DeathQuote, Texture2D card2, SoundEffect card2IntroMusic, SoundEffect card2EntrenceQuote, SoundEffect card2AttackQuote, SoundEffect card2AbilityQuote, SoundEffect card2DeathQuote, Texture2D card3, SoundEffect card3IntroMusic, SoundEffect card3EntrenceQuote, SoundEffect card3AttackQuote, SoundEffect card3AbilityQuote, SoundEffect card3DeathQuote, Texture2D card4, SoundEffect card4IntroMusic, SoundEffect card4EntrenceQuote, SoundEffect card4AttackQuote, SoundEffect card4AbilityQuote, SoundEffect card4DeathQuote, Texture2D card5, SoundEffect card5IntroMusic, SoundEffect card5EntrenceQuote, SoundEffect card5AttackQuote, SoundEffect card5AbilityQuote, SoundEffect card5DeathQuote, Texture2D card6, SoundEffect card6IntroMusic, SoundEffect card6EntrenceQuote, SoundEffect card6AttackQuote, SoundEffect card6AbilityQuote, SoundEffect card6DeathQuote, Texture2D card7, SoundEffect card7IntroMusic, SoundEffect card7EntrenceQuote, SoundEffect card7AttackQuote, SoundEffect card7AbilityQuote, SoundEffect card7DeathQuote, Texture2D card8, SoundEffect card8IntroMusic, SoundEffect card8EntrenceQuote, SoundEffect card8AttackQuote, SoundEffect card8AbilityQuote, SoundEffect card8DeathQuote, Texture2D card9, SoundEffect card9IntroMusic, SoundEffect card9EntrenceQuote, SoundEffect card9AttackQuote, SoundEffect card9AbilityQuote, SoundEffect card9DeathQuote, Texture2D card10, SoundEffect card10IntroMusic, SoundEffect card10EntrenceQuote, SoundEffect card10AttackQuote, SoundEffect card10AbilityQuote, SoundEffect card10DeathQuote, Texture2D card11, SoundEffect card11IntroMusic, SoundEffect card11EntrenceQuote, SoundEffect card11AttackQuote, SoundEffect card11AbilityQuote, SoundEffect card11DeathQuote, Texture2D card12, SoundEffect card12IntroMusic, SoundEffect card12EntrenceQuote, SoundEffect card12AttackQuote, SoundEffect card12AbilityQuote, SoundEffect card12DeathQuote, Texture2D card13, SoundEffect card13IntroMusic, SoundEffect card13EntrenceQuote, SoundEffect card13AttackQuote, SoundEffect card13AbilityQuote, SoundEffect card13DeathQuote, Texture2D card14, SoundEffect card14IntroMusic, SoundEffect card14EntrenceQuote, SoundEffect card14AttackQuote, SoundEffect card14AbilityQuote, SoundEffect card14DeathQuote, Texture2D card15, SoundEffect card15IntroMusic, SoundEffect card15EntrenceQuote, SoundEffect card15AttackQuote, SoundEffect card15AbilityQuote, SoundEffect card15DeathQuote, Texture2D card16, SoundEffect card16IntroMusic, SoundEffect card16EntrenceQuote, SoundEffect card16AttackQuote, SoundEffect card16AbilityQuote, SoundEffect card16DeathQuote, Texture2D card17, SoundEffect card17IntroMusic, SoundEffect card17EntrenceQuote, SoundEffect card17AttackQuote, SoundEffect card17AbilityQuote, SoundEffect card17DeathQuote, Texture2D card18, SoundEffect card18IntroMusic, SoundEffect card18EntrenceQuote, SoundEffect card18AttackQuote, SoundEffect card18AbilityQuote, SoundEffect card18DeathQuote, Texture2D card19, SoundEffect card19IntroMusic, SoundEffect card19EntrenceQuote, SoundEffect card19AttackQuote, SoundEffect card19AbilityQuote, SoundEffect card19DeathQuote, Texture2D card20, SoundEffect card20IntroMusic, SoundEffect card20EntrenceQuote, SoundEffect card20AttackQuote, SoundEffect card20AbilityQuote, SoundEffect card20DeathQuote, Texture2D card21, SoundEffect card21IntroMusic, SoundEffect card21EntrenceQuote, SoundEffect card21AttackQuote, SoundEffect card21AbilityQuote, SoundEffect card21DeathQuote, Texture2D card22, SoundEffect card22IntroMusic, SoundEffect card22EntrenceQuote, SoundEffect card22AttackQuote, SoundEffect card22AbilityQuote, SoundEffect card22DeathQuote, Texture2D card23, SoundEffect card23IntroMusic, SoundEffect card23EntrenceQuote, SoundEffect card23AttackQuote, SoundEffect card23AbilityQuote, SoundEffect card23DeathQuote, Texture2D card24, SoundEffect card24IntroMusic, SoundEffect card24EntrenceQuote, SoundEffect card24AttackQuote, SoundEffect card24AbilityQuote, SoundEffect card24DeathQuote, Texture2D card25, SoundEffect card25IntroMusic, SoundEffect card25EntrenceQuote, SoundEffect card25AttackQuote, SoundEffect card25AbilityQuote, SoundEffect card25DeathQuote, Texture2D card26, SoundEffect card26IntroMusic, SoundEffect card26EntrenceQuote, SoundEffect card26AttackQuote, SoundEffect card26AbilityQuote, SoundEffect card26DeathQuote, Texture2D card27, Texture2D card28, Texture2D card29, Texture2D card30, SoundEffect card30IntroMusic, SoundEffect card30EntrenceQuote, SoundEffect card30AttackQuote, SoundEffect card30AbilityQuote, SoundEffect card30DeathQuote, Texture2D card31, SoundEffect card31IntroMusic, SoundEffect card31EntrenceQuote, SoundEffect card31AttackQuote, SoundEffect card31AbilityQuote, SoundEffect card31DeathQuote, Texture2D card32, SoundEffect card32IntroMusic, SoundEffect card32EntrenceQuote, SoundEffect card32AttackQuote, SoundEffect card32AbilityQuote, SoundEffect card32DeathQuote, Texture2D card33, SoundEffect card33IntroMusic, SoundEffect card33EntrenceQuote, SoundEffect card33AttackQuote, SoundEffect card33AbilityQuote, SoundEffect card33DeathQuote, Texture2D card34, SoundEffect card34IntroMusic, SoundEffect card34EntrenceQuote, SoundEffect card34AttackQuote, SoundEffect card34AbilityQuote, SoundEffect card34DeathQuote, Texture2D card35, SoundEffect card35IntroMusic, SoundEffect card35EntrenceQuote, SoundEffect card35AttackQuote, SoundEffect card35AbilityQuote, SoundEffect card35DeathQuote, Texture2D card36, SoundEffect card36IntroMusic, SoundEffect card36EntrenceQuote, SoundEffect card36AttackQuote, SoundEffect card36AbilityQuote, SoundEffect card36DeathQuote, Texture2D card37, SoundEffect card37IntroMusic, SoundEffect card37EntrenceQuote, SoundEffect card37AttackQuote, SoundEffect card37AbilityQuote, SoundEffect card37DeathQuote, Texture2D card38, SoundEffect card38IntroMusic, SoundEffect card38EntrenceQuote, SoundEffect card38AttackQuote, SoundEffect card38AbilityQuote, SoundEffect card38DeathQuote, Texture2D card39, SoundEffect card39IntroMusic, SoundEffect card39EntrenceQuote, SoundEffect card39AttackQuote, SoundEffect card39AbilityQuote, SoundEffect card39DeathQuote, Texture2D card40, SoundEffect card40IntroMusic, SoundEffect card40EntrenceQuote, SoundEffect card40AttackQuote, SoundEffect card40AbilityQuote, SoundEffect card40DeathQuote, Texture2D card41, SoundEffect card41IntroMusic, SoundEffect card41EntrenceQuote, SoundEffect card41AttackQuote, SoundEffect card41AbilityQuote, SoundEffect card41DeathQuote, Texture2D card42, SoundEffect card42IntroMusic, SoundEffect card42EntrenceQuote, SoundEffect card42AttackQuote, SoundEffect card42AbilityQuote, SoundEffect card42DeathQuote, Texture2D card43, SoundEffect card43IntroMusic, SoundEffect card43EntrenceQuote, SoundEffect card43AttackQuote, SoundEffect card43AbilityQuote, SoundEffect card43DeathQuote, Texture2D card44, SoundEffect card44IntroMusic, SoundEffect card44EntrenceQuote, SoundEffect card44AttackQuote, SoundEffect card44AbilityQuote, SoundEffect card44DeathQuote, Texture2D card45, SoundEffect card45IntroMusic, SoundEffect card45EntrenceQuote, SoundEffect card45AttackQuote, SoundEffect card45AbilityQuote, SoundEffect card45DeathQuote, Texture2D card46, SoundEffect card46IntroMusic, SoundEffect card46EntrenceQuote, SoundEffect card46AttackQuote, SoundEffect card46AbilityQuote, SoundEffect card46DeathQuote, Texture2D card47, SoundEffect card47IntroMusic, SoundEffect card47EntrenceQuote, SoundEffect card47AttackQuote, SoundEffect card47AbilityQuote, SoundEffect card47DeathQuote, Texture2D RAB, Texture2D LAB, Texture2D PIMB, Texture2D PEQB, Texture2D PATQB, Texture2D PABQB, Texture2D PDQB, Texture2D exit, Texture2D BG)
         {
             Jacob_R_Card = card1;
@@ -714,8 +724,11 @@ namespace HearthstoneModGame
             ArronDeathQuote = card47DeathQuote;
 
             //button setup
-            rightArrow = new Buttoncollision(RAB, RABPosition);
-            leftArrow = new Buttoncollision(LAB, LABPosition);
+            CRRAB = RAB;
+           
+
+            //rightArrow = new Buttoncollision(CRRAB, RABPosition);
+            //leftArrow = new Buttoncollision(LAB, LABPosition);
             playMusicBackGround = new Buttoncollision(PIMB, PMBGBPosition);
             playEntranceQuote = new Buttoncollision(PEQB, PEQBPosition);
             playAttackQuote = new Buttoncollision(PATQB, PATQBPosition);
@@ -764,7 +777,7 @@ namespace HearthstoneModGame
             playDeathQuote.CheckMouseCollision();
             Exit.CheckMouseCollision();
 
-            if (rightArrow.complete == true)
+            if (Keyboard.GetState().IsKeyDown(Keys.Right))
             {
                 if (currentCard == Arron_Card && currentCardIntroMusic == ArronIntroMusic && currentCardEntrenceQuote == ArronEntrenceQuote && currentCardAttackQuote == ArronAttackQuote && currentCardAbilityQuote == ArronAbilityQuote && currentCardDeathQuote == ArronDeathQuote)
                 {
@@ -833,8 +846,8 @@ namespace HearthstoneModGame
 
             spritebatch.End();
 
-            rightArrow.Draw(spritebatch);
-            leftArrow.Draw(spritebatch);
+            //rightArrow.Draw(spritebatch);
+            //leftArrow.Draw(spritebatch);
             playMusicBackGround.Draw(spritebatch);
             playEntranceQuote.Draw(spritebatch);
             playAttackQuote.Draw(spritebatch);

@@ -24,6 +24,20 @@ namespace HearthstoneModGame
 
         Vector2 aiMinionPosition1;
 
+        Texture2D PAIBG;
 
+        public PlayAI(Texture2D paibg)
+        {
+            PAIBG = paibg;
+        }
+
+        public void Draw(SpriteBatch spriteBatch)
+        {
+            spriteBatch.Begin();
+
+            spriteBatch.Draw(PAIBG, new Rectangle(0, 0, 1080, 720), Color.White);
+
+            spriteBatch.End();
+        }
     }
 }

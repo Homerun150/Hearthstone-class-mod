@@ -288,9 +288,9 @@ namespace HearthstoneModGame
 
         Texture2D Card39;
         SoundEffect Card39IntroMusic;
-        SoundEffect Card139EntrenceQuote;
+        SoundEffect Card39EntrenceQuote;
         SoundEffect Card39AttackQuote;
-        SoundEffect Card139AbilityQuote;
+        SoundEffect Card39AbilityQuote;
         SoundEffect Card39DeathQuote;
 
         Texture2D Card40;
@@ -367,6 +367,11 @@ namespace HearthstoneModGame
         Texture2D PAIMRBH;
         Texture2D PAIMRDH;
         Texture2D PAIECB;
+        PlayAI playAI;
+
+        //LIsts
+        List<SoundEffect> Effects = new List<SoundEffect>();
+        List<Texture2D> Cards = new List<Texture2D>();
 
         public SoundEffect buttonClicked;
 
@@ -410,8 +415,26 @@ namespace HearthstoneModGame
             menuRCB = Content.Load<Texture2D>("review-card-fix");
             menuEB = Content.Load<Texture2D>("Exit");
 
-            cardreview = new cardReview(Card1, Card1IntroMusic, Card1EntrenceQuote, Card1AttackQuote, Card1AbilityQuote, Card1DeathQuote, Card2, Card2IntroMusic, Card2EntrenceQuote, Card2AttackQuote, Card2AbilityQuote, Card2DeathQuote, Card3, Card3IntroMusic, Card3EntrenceQuote, Card3AttackQuote, Card3AbilityQuote, Card3DeathQuote, Card4, Card4IntroMusic, Card4EntrenceQuote, Card4AttackQuote, Card4AbilityQuote, Card4DeathQuote, Card5, Card5IntroMusic, Card5EntrenceQuote, Card5AttackQuote, Card5AbilityQuote, Card5DeathQuote, Card6, Card6IntroMusic, Card6EntrenceQuote, Card6AttackQuote, Card6AbilityQuote, Card6DeathQuote, Card7, Card7IntroMusic, Card7EntrenceQuote, Card7AttackQuote, Card7AbilityQuote, Card7DeathQuote, Card8, Card8IntroMusic, Card8EntrenceQuote, Card8AttackQuote, Card8AbilityQuote, Card8DeathQuote, Card9, Card9IntroMusic, Card9EntrenceQuote, Card9AttackQuote, Card9AbilityQuote, Card9DeathQuote, Card10, Card10IntroMusic, Card10EntrenceQuote, Card10AttackQuote, Card10AbilityQuote, Card10DeathQuote, Card11, Card11IntroMusic, Card11EntrenceQuote, Card11AttackQuote, Card11AbilityQuote, Card11DeathQuote, Card12, Card12IntroMusic, Card12EntrenceQuote, Card12AttackQuote, Card12AbilityQuote, Card12DeathQuote, Card13, Card13IntroMusic, Card13EntrenceQuote, Card13AttackQuote, Card13AbilityQuote, Card13DeathQuote, Card14, Card14IntroMusic, Card14EntrenceQuote, Card14AttackQuote, Card14AbilityQuote, Card14DeathQuote, Card15, Card15IntroMusic, Card15EntrenceQuote, Card15AttackQuote, Card15AbilityQuote, Card15DeathQuote, Card16, Card16IntroMusic, Card16EntrenceQuote, Card16AttackQuote, Card16AbilityQuote, Card16DeathQuote, Card17, Card17IntroMusic, Card17EntrenceQuote, Card17AttackQuote, Card17AbilityQuote, Card17DeathQuote, Card18, Card18IntroMusic, Card18EntrenceQuote, Card18AttackQuote, Card18AbilityQuote, Card18DeathQuote, Card19, Card19IntroMusic, Card19EntrenceQuote, Card19AttackQuote, Card19AbilityQuote, Card19DeathQuote, Card20, Card20IntroMusic, Card20EntrenceQuote, Card20AttackQuote, Card20AbilityQuote, Card20DeathQuote, Card21, Card21IntroMusic, Card21EntrenceQuote, Card21AttackQuote, Card21AbilityQuote, Card21DeathQuote, Card22, Card22IntroMusic, Card22EntrenceQuote, Card22AttackQuote, Card22AbilityQuote, Card22DeathQuote, Card23, Card23IntroMusic, Card23EntrenceQuote, Card23AttackQuote, Card23AbilityQuote, Card23DeathQuote, Card24, Card24IntroMusic, Card24EntrenceQuote, Card24AttackQuote, Card24AbilityQuote, Card24DeathQuote, Card25, Card25IntroMusic, Card25EntrenceQuote, Card25AttackQuote, Card25AbilityQuote, Card25DeathQuote, Card26, Card26IntroMusic, Card26EntrenceQuote, Card26AttackQuote, Card26AbilityQuote, Card26DeathQuote, Card27, Card28, Card29, Card30, Card30IntroMusic, Card30EntrenceQuote, Card30AttackQuote, Card30AbilityQuote, Card30DeathQuote, Card31, Card31IntroMusic, Card31EntrenceQuote, Card31AttackQuote, Card31AbilityQuote, Card31DeathQuote, Card32, Card32IntroMusic, Card32EntrenceQuote, Card32AttackQuote, Card32AbilityQuote, Card32DeathQuote, Card33, Card33IntroMusic, Card33EntrenceQuote, Card33AttackQuote, Card33AbilityQuote, Card33DeathQuote, Card34, Card34IntroMusic, Card34EntrenceQuote, Card34AttackQuote, Card34AbilityQuote, Card34DeathQuote, Card35, Card35IntroMusic, Card35EntrenceQuote, Card35AttackQuote, Card35AbilityQuote, Card35DeathQuote, Card36, Card36IntroMusic, Card36EntrenceQuote, Card36AttackQuote, Card36AbilityQuote, Card36DeathQuote, Card37, Card37IntroMusic, Card37EntrenceQuote, Card37AttackQuote, Card37AbilityQuote, Card37DeathQuote, Card38, Card38IntroMusic, Card38EntrenceQuote, Card38AttackQuote, Card38AbilityQuote, Card1DeathQuote, Card1, Card1IntroMusic, Card1EntrenceQuote, Card1AttackQuote, Card1AbilityQuote, Card1DeathQuote, Card1, Card1IntroMusic, Card1EntrenceQuote, Card1AttackQuote, Card1AbilityQuote, Card1DeathQuote, Card1, Card1IntroMusic, Card1EntrenceQuote, Card1AttackQuote, Card1AbilityQuote, Card1DeathQuote, Card1, Card1IntroMusic, Card1EntrenceQuote, Card1AttackQuote, Card1AbilityQuote, Card1DeathQuote, Card1, Card1IntroMusic, Card1EntrenceQuote, Card1AttackQuote, Card1AbilityQuote, Card1DeathQuote, Card1, Card1IntroMusic, Card1EntrenceQuote, Card1AttackQuote, Card1AbilityQuote, Card1DeathQuote, Card1, Card1IntroMusic, Card1EntrenceQuote, Card1AttackQuote, Card1AbilityQuote, Card1DeathQuote, Card1, Card1IntroMusic, Card1EntrenceQuote, Card1AttackQuote, Card1AbilityQuote, Card1DeathQuote, CRRAB, CRLAB, CRIMB, CREQB, CRATQB, CRABQB, CRDQB, CREXB, CRBG);
+            //CRRAB = Content.Load<Texture2D>("right button");
+            //CRLAB = Content.Load<Texture2D>("left button");
+            CRIMB = Content.Load<Texture2D>("Background Sound");
+            CREQB = Content.Load<Texture2D>("Entrance");
+            CRATQB = Content.Load<Texture2D>("Attack");
+            CRABQB = Content.Load<Texture2D>("card sound fix");
+            CRDQB = Content.Load<Texture2D>("Death");
+            CREXB = Content.Load<Texture2D>("EXIT");
+            CRBG = Content.Load<Texture2D>("sand tan");
+
+            Card1 = Content.Load<Texture2D>("Jacob R");
+
+            Card2 = Content.Load<Texture2D>("Colin");
+
+
+            PAIBG = Content.Load<Texture2D>("Back-ground-battle-field");
+
+            cardreview = new cardReview(Card1, Card1IntroMusic, Card1EntrenceQuote, Card1AttackQuote, Card1AbilityQuote, Card1DeathQuote, Card2, Card2IntroMusic, Card2EntrenceQuote, Card2AttackQuote, Card2AbilityQuote, Card2DeathQuote, Card3, Card3IntroMusic, Card3EntrenceQuote, Card3AttackQuote, Card3AbilityQuote, Card3DeathQuote, Card4, Card4IntroMusic, Card4EntrenceQuote, Card4AttackQuote, Card4AbilityQuote, Card4DeathQuote, Card5, Card5IntroMusic, Card5EntrenceQuote, Card5AttackQuote, Card5AbilityQuote, Card5DeathQuote, Card6, Card6IntroMusic, Card6EntrenceQuote, Card6AttackQuote, Card6AbilityQuote, Card6DeathQuote, Card7, Card7IntroMusic, Card7EntrenceQuote, Card7AttackQuote, Card7AbilityQuote, Card7DeathQuote, Card8, Card8IntroMusic, Card8EntrenceQuote, Card8AttackQuote, Card8AbilityQuote, Card8DeathQuote, Card9, Card9IntroMusic, Card9EntrenceQuote, Card9AttackQuote, Card9AbilityQuote, Card9DeathQuote, Card10, Card10IntroMusic, Card10EntrenceQuote, Card10AttackQuote, Card10AbilityQuote, Card10DeathQuote, Card11, Card11IntroMusic, Card11EntrenceQuote, Card11AttackQuote, Card11AbilityQuote, Card11DeathQuote, Card12, Card12IntroMusic, Card12EntrenceQuote, Card12AttackQuote, Card12AbilityQuote, Card12DeathQuote, Card13, Card13IntroMusic, Card13EntrenceQuote, Card13AttackQuote, Card13AbilityQuote, Card13DeathQuote, Card14, Card14IntroMusic, Card14EntrenceQuote, Card14AttackQuote, Card14AbilityQuote, Card14DeathQuote, Card15, Card15IntroMusic, Card15EntrenceQuote, Card15AttackQuote, Card15AbilityQuote, Card15DeathQuote, Card16, Card16IntroMusic, Card16EntrenceQuote, Card16AttackQuote, Card16AbilityQuote, Card16DeathQuote, Card17, Card17IntroMusic, Card17EntrenceQuote, Card17AttackQuote, Card17AbilityQuote, Card17DeathQuote, Card18, Card18IntroMusic, Card18EntrenceQuote, Card18AttackQuote, Card18AbilityQuote, Card18DeathQuote, Card19, Card19IntroMusic, Card19EntrenceQuote, Card19AttackQuote, Card19AbilityQuote, Card19DeathQuote, Card20, Card20IntroMusic, Card20EntrenceQuote, Card20AttackQuote, Card20AbilityQuote, Card20DeathQuote, Card21, Card21IntroMusic, Card21EntrenceQuote, Card21AttackQuote, Card21AbilityQuote, Card21DeathQuote, Card22, Card22IntroMusic, Card22EntrenceQuote, Card22AttackQuote, Card22AbilityQuote, Card22DeathQuote, Card23, Card23IntroMusic, Card23EntrenceQuote, Card23AttackQuote, Card23AbilityQuote, Card23DeathQuote, Card24, Card24IntroMusic, Card24EntrenceQuote, Card24AttackQuote, Card24AbilityQuote, Card24DeathQuote, Card25, Card25IntroMusic, Card25EntrenceQuote, Card25AttackQuote, Card25AbilityQuote, Card25DeathQuote, Card26, Card26IntroMusic, Card26EntrenceQuote, Card26AttackQuote, Card26AbilityQuote, Card26DeathQuote, Card27, Card28, Card29, Card30, Card30IntroMusic, Card30EntrenceQuote, Card30AttackQuote, Card30AbilityQuote, Card30DeathQuote, Card31, Card31IntroMusic, Card31EntrenceQuote, Card31AttackQuote, Card31AbilityQuote, Card31DeathQuote, Card32, Card32IntroMusic, Card32EntrenceQuote, Card32AttackQuote, Card32AbilityQuote, Card32DeathQuote, Card33, Card33IntroMusic, Card33EntrenceQuote, Card33AttackQuote, Card33AbilityQuote, Card33DeathQuote, Card34, Card34IntroMusic, Card34EntrenceQuote, Card34AttackQuote, Card34AbilityQuote, Card34DeathQuote, Card35, Card35IntroMusic, Card35EntrenceQuote, Card35AttackQuote, Card35AbilityQuote, Card35DeathQuote, Card36, Card36IntroMusic, Card36EntrenceQuote, Card36AttackQuote, Card36AbilityQuote, Card36DeathQuote, Card37, Card37IntroMusic, Card37EntrenceQuote, Card37AttackQuote, Card37AbilityQuote, Card37DeathQuote, Card38, Card38IntroMusic, Card38EntrenceQuote, Card38AttackQuote, Card38AbilityQuote, Card38DeathQuote, Card39, Card39IntroMusic, Card39EntrenceQuote, Card39AttackQuote, Card39AbilityQuote, Card39DeathQuote, Card40, Card40IntroMusic, Card40EntrenceQuote, Card40AttackQuote, Card40AbilityQuote, Card40DeathQuote, Card41, Card41IntroMusic, Card41EntrenceQuote, Card41AttackQuote, Card41AbilityQuote, Card41DeathQuote, Card42, Card42IntroMusic, Card42EntrenceQuote, Card42AttackQuote, Card42AbilityQuote, Card42DeathQuote, Card43, Card43IntroMusic, Card43EntrenceQuote, Card43AttackQuote, Card43AbilityQuote, Card43DeathQuote, Card44, Card44IntroMusic, Card44EntrenceQuote, Card44AttackQuote, Card44AbilityQuote, Card44DeathQuote, Card45, Card45IntroMusic, Card45EntrenceQuote, Card45AttackQuote, Card45AbilityQuote, Card45DeathQuote, Card46, Card46IntroMusic, Card46EntrenceQuote, Card46AttackQuote, Card46AbilityQuote, Card46DeathQuote, Card47, Card47IntroMusic,Card47EntrenceQuote, Card47AttackQuote, Card47AbilityQuote,Card47DeathQuote, CRRAB, CRLAB, CRIMB, CREQB, CRATQB, CRABQB, CRDQB, CREXB, CRBG);
             menu = new MainMenu(menuBG, menuPAB, menuRCB, menuEB);
+            playAI = new PlayAI(PAIBG);
         }
 
         /// <summary>
@@ -442,13 +465,11 @@ namespace HearthstoneModGame
                 {
                     previousScreen = currentScreen;
                     currentScreen = "PlayAIMenu";
-                    this.Exit();
                 }
                 else if (menu.rButtonIsClicked)
                 {
                     previousScreen = currentScreen;
                     currentScreen = "cardReview";
-                    this.Exit();
                 }
                 else if (menu.eButtonIsClicked)
                 {
@@ -473,12 +494,15 @@ namespace HearthstoneModGame
                 menu.Draw(spriteBatch);
             }
             
-            if (currentScreen == "playAI")
+            if (currentScreen == "PlayAIMenu")
             {
-                
+                playAI.Draw(spriteBatch);
             }
 
             if (currentScreen == "cardReview")
+            {
+                cardreview.Draw(spriteBatch);
+            }
             
             base.Draw(gameTime);
         }
