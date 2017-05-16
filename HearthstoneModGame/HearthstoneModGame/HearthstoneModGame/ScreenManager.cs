@@ -477,6 +477,15 @@ namespace HearthstoneModGame
                 }
                
             }
+            if (currentScreen == "PlayAIMenu")
+            {
+
+            }
+            if(currentScreen == "cardReview")
+            {
+                cardreview.CurrentCardUpdate();
+                cardreview.Update();
+            }
             base.Update(gameTime);
         }
 

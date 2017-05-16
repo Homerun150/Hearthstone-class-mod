@@ -768,8 +768,8 @@ namespace HearthstoneModGame
 
         public void Update()
         {
-            rightArrow.CheckMouseCollision();
-            leftArrow.CheckMouseCollision();
+            //rightArrow.CheckMouseCollision();
+            //leftArrow.CheckMouseCollision();
             playMusicBackGround.CheckMouseCollision();
             playEntranceQuote.CheckMouseCollision();
             playAttackQuote.CheckMouseCollision();
@@ -794,7 +794,7 @@ namespace HearthstoneModGame
                 }
             }
 
-            if (leftArrow.complete == true)
+            if (Keyboard.GetState().IsKeyDown(Keys.Left))
             {
                 if (currentCard == Jacob_R_Card && currentCardIntroMusic == JacobRIntroMusic && currentCardEntrenceQuote == JacobREntrenceQuote && currentCardAttackQuote == JacobRAttackQuote && currentCardAbilityQuote == JacobRAbilityQuote && currentCardDeathQuote == JacobRDeathQuote)
                 {
